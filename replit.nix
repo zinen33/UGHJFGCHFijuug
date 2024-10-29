@@ -1,5 +1,5 @@
-{ pkgs, legacyPolygott }: {
-	deps = [
-		pkgs.bashInteractive
-	] ++ legacyPolygott;
+{ pkgs }: {
+  deps = [
+    pkgs.nodejs-16_x
+  ];
 }
